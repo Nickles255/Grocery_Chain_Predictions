@@ -4,8 +4,8 @@ rm(list = ls())
 setwd('c:\\data\\Grocery_Chain\\')
 ## list.files() ## list files in a directory
 ## g_train <- read.csv('train.csv', header=FALSE, stringsAsFactors = FALSE, nrow = 10000000)
-g_train <- read.csv('.\\train_years\\2015.csv', header=FALSE, stringsAsFactors = FALSE)
-names(g_train) <- c('id', 'date', 'store_nbr', 'item_nbr', 'onpromotion')
+g_train <- read.csv('.\\train_years\\2016.csv', header=FALSE, stringsAsFactors = FALSE)
+names(g_train) <- c('id', 'date', 'store_nbr', 'item_nbr', 'unit_sales', 'onpromotion')
 g_test  <- read.csv('test.csv', stringsAsFactors = FALSE)
 subm <- read.csv('sample_.csv', stringsAsFactors = FALSE)
 
