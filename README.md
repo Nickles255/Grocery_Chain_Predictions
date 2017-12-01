@@ -16,15 +16,13 @@ Files Provided:
   columns
      id:  position in file starting with 0.
      date: date in format mm/dd/yyyy 
-	 store_nbr: store number item was located
-	 item_nbr: unique number of item solds
-	 unit_sales: can be integer or float depending if it is unit sales or by weight. 
-	             Negative numbers indicates more refunds than sales.
-
-     onpromotion: indicates whether item was on promotion for specified date.
-
-	 If items had 0 unit_sales for the day then they are excluded from the dataset.
-	 some items in train are not in test data set.
+     store_nbr: store number item was located
+     item_nbr: unique number of item solds
+     unit_sales: can be integer or float depending if it is unit sales or by weight. 
+	         Negative numbers indicates more refunds than sales.
+     onpromotion: indicates whether item was on promotion for specified date. 
+     If items had 0 unit_sales for the day then they are excluded from the dataset.
+     some items in train are not in test data set.
 
 test.csv; 3370464 records; 
   columns
